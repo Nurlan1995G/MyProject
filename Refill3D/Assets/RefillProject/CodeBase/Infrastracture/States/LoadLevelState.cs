@@ -13,10 +13,6 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.States
 {
     public class LoadLevelState : IPayloadState<string>
     {
-        private const string InitialPointTag = "InitialPoint";
-        private const string BuyerSpawnerTag = "BuyerSpawner";
-        private const string PetrolPointTag = "PetrolPoint";
-
         private readonly GameStateMashine _gameStateMashine;
         private readonly SceneLoader _sceneLoader;
         private readonly LoadingCurtain _loadingCurtain;
@@ -60,24 +56,32 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.States
 
         private void InitGameWorld()
         {
-            InitSpawners();
+            LevelStaticData levelData = LevelStaticData();
 
-            GameObject refill = _gameFactory.CreateHero(at: GameObject.FindWithTag(InitialPointTag));
-
-            _gameFactory.CreatePetrol(at: GameObject.FindWithTag(PetrolPointTag));
-            _gameFactory.CreateHud();
-            
+            InitSpawners(levelData);
+            GameObject refill = InitRefill(levelData);
+            InitPetrol(levelData);
+            InitHud();
             CameraFollow(refill);
         }
 
-        private void InitSpawners()
-        {
-            string sceneKey = SceneManager.GetActiveScene().name;
-            LevelStaticData levelData = _staticData.ForLevel(sceneKey);
+        private LevelStaticData LevelStaticData() =>
+            _staticData.ForLevel(SceneManager.GetActiveScene().name);
 
+        private void InitSpawners(LevelStaticData levelData)
+        {
             foreach (BuyerSpawnerData spawnerData in levelData.BuyerSpawners)
                 _gameFactory.CreateSpawner(spawnerData.Position, spawnerData.Id, spawnerData.BuyerTypeId);
         }
+
+        private GameObject InitRefill(LevelStaticData levelData) =>
+            _gameFactory.CreateRefill(levelData.InitialRefillPosition);
+
+        private void InitPetrol(LevelStaticData levelData) => 
+            _gameFactory.CreatePetrol(levelData.InitialPetrolPosition);
+        
+        private void InitHud() =>
+            _gameFactory.CreateHud();
 
         private static void CameraFollow(GameObject refill) => 
             Camera.main.GetComponent<CameraFollow>().Follow(refill);

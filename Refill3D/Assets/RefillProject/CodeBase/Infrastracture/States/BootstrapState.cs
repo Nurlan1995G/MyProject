@@ -41,9 +41,10 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.States
         private void RegisterServices()
         {
             RegisterStaticData();
-            
-            _services.RegisterSingle(InputService());
+
+            _services.RegisterSingle<IGameStateMashine>(_gameStateMashine);
             _services.RegisterSingle<IAssetProvider>(new AssetProvider());
+            _services.RegisterSingle(InputService());
             _services.RegisterSingle<IPersistentProgressService>(new PersistentProgressService());
 
             _services.RegisterSingle<IGameFactory>(new GameFactory(_services.Single<IAssetProvider>()

@@ -11,4 +11,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/RefillProject/Scenes/Main.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: aa4de6b3a10c07e449bb960e3da969bb, type: 2}

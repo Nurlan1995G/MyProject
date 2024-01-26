@@ -33,5 +33,10 @@ namespace Assets.RefillProject.CodeBase.CameraLogic
 
             return followingPosition;
         }
+
+        private void Load()
+        {
+            Debug.Log("");
+        }
     }
 }

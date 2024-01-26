@@ -28,9 +28,7 @@ namespace Assets.RefillProject.CodeBase.Person.BuyerSpawner
 
         }
 
-        private void Spawn()
-        {
-            _gameFactory.CreateBuyer(BuyerTypeId, transform);
-        }
+        private async void Spawn() => 
+             await _gameFactory.CreateBuyer(BuyerTypeId, transform);
     }
 }

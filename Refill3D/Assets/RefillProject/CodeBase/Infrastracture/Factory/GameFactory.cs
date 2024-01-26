@@ -5,8 +5,11 @@ using Assets.RefillProject.CodeBase.Services;
 using Assets.RefillProject.CodeBase.Services.PersistentProgress;
 using Assets.RefillProject.CodeBase.StaticData;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
 using UnityEngine.AI;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
 {
@@ -26,23 +29,25 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
         public List<ISavedProgressReader> ProgressReaders { get; } = new List<ISavedProgressReader>();
         public List<ISavedProgress> ProgressWriters { get; } = new List<ISavedProgress>();
 
-        public GameObject CreateHero(GameObject at) => 
-            InstanriateRegistered(AssetAddress.RefillPath, at.transform.position);
+        public GameObject CreateRefill(Vector3 at) => 
+            InstanriateRegistered(AssetAddress.RefillPath, at);
 
-        public GameObject CreateBuyer(BuyerTypeId buyerTypeId, Transform parent)
+        public async Task<GameObject> CreateBuyer(BuyerTypeId buyerTypeId, Transform parent)
         {
             BuyerStaticData buyerData = _staticData.ForBuyer(buyerTypeId);
-            GameObject buyer = Object.Instantiate(buyerData.Prefab, parent.position, Quaternion.identity, parent);
+
+            GameObject prefab = await _assetProvider.Load<GameObject>(buyerData.PrefabReference);
+
+            GameObject buyer = Object.Instantiate(prefab, parent.position, Quaternion.identity, parent);
 
             buyer.GetComponent<AgentMoveToPetrol>()?.Cunstruct(_petrolGameObject.transform);
             buyer.GetComponent<NavMeshAgent>().speed = buyerData.MoveSpeed;
 
-
             return buyer;
         }
 
-        public GameObject CreatePetrol(GameObject at) => 
-            _petrolGameObject = InstanriateRegistered(AssetAddress.PetrolPath, at.transform.position);
+        public GameObject CreatePetrol(Vector3 at) => 
+            _petrolGameObject = InstanriateRegistered(AssetAddress.PetrolPath, at);
 
         public void CreateHud() =>
             InstanriateRegistered(AssetAddress.HudPath);
@@ -73,7 +78,6 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
         private GameObject InstanriateRegistered(string gameObjectPath, Vector3 position)
         {
             GameObject gameObject = _assetProvider.Instantiate(gameObjectPath, position);
-
             RegisteresProgressWatchers(gameObject);
 
             return gameObject;
@@ -82,7 +86,6 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
         private GameObject InstanriateRegistered(string gameObjectPath)
         {
             GameObject gameObject = _assetProvider.Instantiate(gameObjectPath);
-
             RegisteresProgressWatchers(gameObject);
 
             return gameObject;

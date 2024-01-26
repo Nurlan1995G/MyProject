@@ -17,3 +17,5 @@ MonoBehaviour:
   - Id: Main_b4f080e7-0b50-4a2a-beb4-9172e771a969
     BuyerTypeId: 0
     Position: {x: 19.144733, y: 0.029001236, z: -0.49568367}
+  InitialRefillPosition: {x: 17.904165, y: 0, z: -11.081232}
+  InitialPetrolPosition: {x: -21.463003, y: 0, z: -5.626979}

@@ -11,6 +11,9 @@ namespace Assets.RefillProject.CodeBase.Editor
     [CustomEditor(typeof(LevelStaticData))]
     public class LevelStaticDataEditor : UnityEditor.Editor
     {
+        private const string InitialPointTag = "InitialPoint";
+        private const string PetrolPointTag = "PetrolPoint";
+
         public override void OnInspectorGUI()
         {
             base.OnInspectorGUI();
@@ -24,6 +27,9 @@ namespace Assets.RefillProject.CodeBase.Editor
                     .ToList();
 
                 levelData.LevelKey = SceneManager.GetActiveScene().name;
+
+                levelData.InitialRefillPosition = GameObject.FindWithTag(InitialPointTag).transform.position;
+                levelData.InitialPetrolPosition = GameObject.FindWithTag(PetrolPointTag).transform.position;
             }
 
             EditorUtility.SetDirty(target);

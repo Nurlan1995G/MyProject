@@ -68,8 +68,8 @@
     <Compile Include="Assets\Plugins\SimpleInput\Scripts\AxisInputs\Dpad.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Scripts\Core\SwipeGestureBase.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Scripts\AxisInputs\SteeringWheel.cs" />
-    <Compile Include="Assets\Plugins\SimpleInput\Scripts\Core\BaseInput.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Scripts\Core\SimpleInputUtils.cs" />
+    <Compile Include="Assets\Plugins\SimpleInput\Scripts\Core\BaseInput.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Scripts\AxisInputs\AxisInputSwipeGesture.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Scripts\Core\SimpleInputDragListener.cs" />
     <Compile Include="Assets\Plugins\SimpleInput\Scripts\AxisInputs\Joystick.cs" />

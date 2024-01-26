@@ -66,6 +66,7 @@
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\GameLoopState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\SaveLoad\ISaveLoadService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Person\AgentMoveToPetrol.cs" />
+    <Compile Include="Assets\Samples\Addressables\1.21.19\Prefab Spawner\PrefabSpawnerSample.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\Input\Jostick\InputService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Petrol.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\AnimatorStateReporter.cs" />
@@ -77,10 +78,12 @@
     <Compile Include="Assets\RefillProject\CodeBase\Services\Input\Jostick\StandoloneInputService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManagment\IAssetProvider.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\AnimatorState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\Logic\LevelTransferTrigger.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\IStaticDataService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\PersistentProgress\IPersistentProgressService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\BuyerSpawnerData.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManager\GameRunner.cs" />
+    <Compile Include="Assets\Samples\Addressables\1.21.19\ComponentReference\ComponentReference.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\KillData.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\StaticDataService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\PlayerProgress.cs" />
@@ -99,10 +102,12 @@
     <Compile Include="Assets\RefillProject\CodeBase\Services\Input\Jostick\MobileInputService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\DataExtension.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\LoadingCurtain.cs" />
+    <Compile Include="Assets\Samples\Addressables\1.21.19\Addressables Utility\AddressablesUtility.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManager\Game.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\GameStateMashine.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\IState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\PositionOnLevel.cs" />
+    <Compile Include="Assets\Samples\Addressables\1.21.19\Custom Build and Playmode Scripts\LoadSceneForCustomBuild.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\PersistentProgress\ISavedProgress.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManagment\AssetAddress.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\LevelStaticData.cs" />
@@ -117,6 +122,7 @@
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\Samples\Addressables\1.21.19\Custom Build and Playmode Scripts\README.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
@@ -778,11 +784,17 @@
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>Library\ScriptAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -793,14 +805,14 @@
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -829,6 +841,9 @@
     <Reference Include="Unity.AI.Navigation.Updater">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Addressables.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
@@ -850,8 +865,14 @@
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>Library\ScriptAssemblies\Unity.Addressables.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
