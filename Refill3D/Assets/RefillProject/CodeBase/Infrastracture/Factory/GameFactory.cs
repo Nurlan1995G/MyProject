@@ -5,11 +5,8 @@ using Assets.RefillProject.CodeBase.Services;
 using Assets.RefillProject.CodeBase.Services.PersistentProgress;
 using Assets.RefillProject.CodeBase.StaticData;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.AddressableAssets;
 using UnityEngine.AI;
-using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
 {
@@ -32,13 +29,11 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
         public GameObject CreateRefill(Vector3 at) => 
             InstanriateRegistered(AssetAddress.RefillPath, at);
 
-        public async Task<GameObject> CreateBuyer(BuyerTypeId buyerTypeId, Transform parent)
+        public GameObject CreateBuyer(BuyerTypeId buyerTypeId, Transform parent)
         {
             BuyerStaticData buyerData = _staticData.ForBuyer(buyerTypeId);
 
-            GameObject prefab = await _assetProvider.Load<GameObject>(buyerData.PrefabReference);
-
-            GameObject buyer = Object.Instantiate(prefab, parent.position, Quaternion.identity, parent);
+            GameObject buyer = Object.Instantiate(buyerData.PrefabReference, parent.position, Quaternion.identity, parent);
 
             buyer.GetComponent<AgentMoveToPetrol>()?.Cunstruct(_petrolGameObject.transform);
             buyer.GetComponent<NavMeshAgent>().speed = buyerData.MoveSpeed;

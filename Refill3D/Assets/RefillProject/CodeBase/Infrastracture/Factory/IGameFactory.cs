@@ -2,7 +2,6 @@
 using Assets.RefillProject.CodeBase.Services.PersistentProgress;
 using Assets.RefillProject.CodeBase.StaticData;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
@@ -13,7 +12,7 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
         List<ISavedProgressReader> ProgressReaders { get; }
 
         GameObject CreateRefill(Vector3 at);
-        Task<GameObject> CreateBuyer(BuyerTypeId buyerTypeId, Transform parent);
+        GameObject CreateBuyer(BuyerTypeId buyerTypeId, Transform parent);
         GameObject CreatePetrol(Vector3 at);
         void CreateSpawner(Vector3 at, string spawnerId, BuyerTypeId sbuyerTypeId);
         void CreateHud();
