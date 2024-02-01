@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9115534697406710577}
+  - component: {fileID: 1268854856225091538}
   m_Layer: 0
   m_Name: Hit
   m_TagString: Untagged
@@ -31,6 +32,18 @@ Transform:
   m_Father: {fileID: 601726295054612866}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268854856225091538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148182931390570821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22eddb05593b2b54287fd8836390001b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3711356828885741703
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,9 +56,9 @@ GameObject:
   - component: {fileID: 8320698793827657072}
   - component: {fileID: 7072021553715706190}
   - component: {fileID: 4738868465195906987}
-  - component: {fileID: 3245278758253827030}
   - component: {fileID: 7165587609143923167}
-  - component: {fileID: 704541450602536333}
+  - component: {fileID: 4758920473582783511}
+  - component: {fileID: 8286400939256525891}
   m_Layer: 0
   m_Name: BuyerRed
   m_TagString: Untagged
@@ -134,26 +147,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3245278758253827030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3711356828885741703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 041a7e2854ae29a4a97ff78e6bd166fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _minDistance: 2
-  _agent: {fileID: 7165587609143923167}
 --- !u!195 &7165587609143923167
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -176,7 +175,7 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &704541450602536333
+--- !u!114 &4758920473582783511
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,7 +184,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 3711356828885741703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cacf4899a383476478843d6196a7257c, type: 3}
+  m_Script: {fileID: 11500000, guid: 041a7e2854ae29a4a97ff78e6bd166fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pointRay: {fileID: 148182931390570821}
+--- !u!54 &8286400939256525891
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3711356828885741703}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

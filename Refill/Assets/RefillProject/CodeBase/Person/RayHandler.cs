@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Assets.RefillProject.CodeBase.StateMashine.NewStateMashine;
 using UnityEngine;
 
 namespace Assets.RefillProject.CodeBase.Person
@@ -8,9 +8,8 @@ namespace Assets.RefillProject.CodeBase.Person
         private const string LayerBuyer = "Buyer";
 
         private PointRay _pointRay;
+        private readonly FsmStateMashine _fsmStateMashine;
         private float _maxDistance;
-
-        public event Action RayHadlerEvent;
 
         public RayHandler(PointRay pointRay, float maxDistance)
         {
@@ -26,7 +25,7 @@ namespace Assets.RefillProject.CodeBase.Person
             int layerMaskBuyer = LayerMask.GetMask(LayerBuyer);
 
             if (Physics.Raycast(ray, out RaycastHit hitInfo, _maxDistance, layerMaskBuyer))
-                RayHadlerEvent?.Invoke();
+                Debug.Log("RayHandler - сработал Ray");
         }
     }
 }

@@ -36,7 +36,6 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
             GameObject buyer = Object.Instantiate(buyerData.PrefabReference, parent.position
                 ,Quaternion.identity, parent);
 
-            buyer.GetComponent<AgentMove>()?.Cunstruct(_petrolGameObject.transform);
             buyer.GetComponent<NavMeshAgent>().speed = buyerData.MoveSpeed;
 
             return buyer;
