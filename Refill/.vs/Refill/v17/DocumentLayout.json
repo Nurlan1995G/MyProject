@@ -1,0 +1,732 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity Ucheba, Game 3d\\Refill\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\state\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\state\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\state\\fillingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\state\\fillingstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\ifinitstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\ifinitstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|d:\\unity ucheba, game 3d\\refill\\assets\\refillproject\\codebase\\statemashine\\game\\transitionbuyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\transitionbuyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\buyerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\buyerview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\buyermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\buyermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\factory\\finitmashinestatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\factory\\finitmashinestatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\iagentmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\iagentmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\agentmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\agentmoving.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\factory\\buyerpresenterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\factory\\buyerpresenterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\infrastracture\\states\\bootstrapstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\infrastracture\\states\\bootstrapstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\controller\\buyerpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\controller\\buyerpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\trigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\iinteractable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\iupdatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\iupdatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\services\\saveload\\isaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\services\\saveload\\isaveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\services\\persistentprogress\\ipersistentprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\services\\persistentprogress\\ipersistentprogressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\services\\saveload\\saveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\services\\saveload\\saveloadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\infrastracture\\factory\\igamefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\infrastracture\\factory\\igamefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\infrastracture\\assetmanager\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\infrastracture\\assetmanager\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\infrastracture\\assetmanager\\gamebootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\infrastracture\\assetmanager\\gamebootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\infrastracture\\factory\\gamefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\infrastracture\\factory\\gamefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\buyercar\\buyerspawner\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\buyercar\\buyerspawner\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\buyercar\\buyerspawner\\spawnmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\buyercar\\buyerspawner\\spawnmarker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\buyercar\\endlessrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\buyercar\\endlessrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\buyercar\\rayhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\buyercar\\rayhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\data\\worlddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\data\\worlddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\data\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\data\\playerprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\data\\killdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\data\\killdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\infrastracture\\states\\loadprogressstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\infrastracture\\states\\loadprogressstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\data\\positiononlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\data\\positiononlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\refill\\refillmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\refill\\refillmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\transition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\ifinitmashinestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\ifinitmashinestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\state\\finitestatebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\state\\finitestatebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\state\\finitmashinestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\state\\finitmashinestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\build\\finitemashinestatebuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\implementation\\build\\finitemashinestatebuild.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\ichangerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\interface\\ichangerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\game\\state\\finaltargetstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\game\\state\\finaltargetstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\factory\\ibuyerpresenterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\factory\\ibuyerpresenterfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\refill\\refillmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\refill\\refillmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\factory\\buyerviewfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\statemashine\\finitstatemashine\\factory\\buyerviewfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\services\\allservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF344566-80E1-2852-2578-81528AD4477A}|Assembly-CSharp.csproj|solutionrelative:assets\\refillproject\\codebase\\services\\allservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity Ucheba, Game 3d\\Refill\\assets\\refillproject\\codebase\\person\\buyerspawner\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\refillproject\\codebase\\person\\buyerspawner\\spawnpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoveState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\MoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\MoveState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\MoveState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\MoveState.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T08:49:32.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuyerModel.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerModel.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerModel.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerModel.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T15:12:33.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BuyerView.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerView.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerView.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerView.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\BuyerView.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAcwCcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T16:41:45.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TransitionBuyer.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\TransitionBuyer.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\TransitionBuyer.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\TransitionBuyer.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\TransitionBuyer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T08:49:32.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BuyerPresenterFactory.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerPresenterFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerPresenterFactory.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerPresenterFactory.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerPresenterFactory.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAEwAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T14:32:44.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BootstrapState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\BootstrapState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\BootstrapState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\BootstrapState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\BootstrapState.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAcwDgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T07:31:50.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BuyerPresenter.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Controller\\BuyerPresenter.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Controller\\BuyerPresenter.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Controller\\BuyerPresenter.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Controller\\BuyerPresenter.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T16:41:45.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFinitState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T19:51:48.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FillingState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FillingState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FillingState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FillingState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FillingState.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T17:34:11.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgentMoving.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\AgentMoving.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\AgentMoving.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\AgentMoving.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\AgentMoving.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAABIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T08:49:32.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IAgentMoving.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\IAgentMoving.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\IAgentMoving.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\IAgentMoving.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\IAgentMoving.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T14:47:16.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FinitMashineStateFactory.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Factory\\FinitMashineStateFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Factory\\FinitMashineStateFactory.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Factory\\FinitMashineStateFactory.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Factory\\FinitMashineStateFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:17:21.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Trigger.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Trigger.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Trigger.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Trigger.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\Trigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T17:30:13.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IInteractable.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IInteractable.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IInteractable.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IInteractable.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IInteractable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T17:28:48.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISaveLoadService.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\ISaveLoadService.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\ISaveLoadService.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\ISaveLoadService.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\ISaveLoadService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:59:58.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPersistentProgressService.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\PersistentProgress\\IPersistentProgressService.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Services\\PersistentProgress\\IPersistentProgressService.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\PersistentProgress\\IPersistentProgressService.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Services\\PersistentProgress\\IPersistentProgressService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T13:33:34.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SaveLoadService.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\SaveLoadService.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\SaveLoadService.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\SaveLoadService.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Services\\SaveLoad\\SaveLoadService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T17:00:16.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGameFactory.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\IGameFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\IGameFactory.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\IGameFactory.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\IGameFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T07:33:13.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SpawnMarker.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnMarker.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnMarker.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnMarker.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnMarker.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:18:47.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EndlessRotation.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\EndlessRotation.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\BuyerCar\\EndlessRotation.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\EndlessRotation.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\BuyerCar\\EndlessRotation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:18:41.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SpawnPoint.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnPoint.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnPoint.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\BuyerCar\\BuyerSpawner\\SpawnPoint.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:18:57.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUpdatable.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IUpdatable.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IUpdatable.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IUpdatable.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IUpdatable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T19:47:11.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Game.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\Game.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\Game.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\Game.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\Game.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:34:09.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GameBootstrapper.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\GameBootstrapper.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\GameBootstrapper.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\GameBootstrapper.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Infrastracture\\AssetManager\\GameBootstrapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAEwA0AAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:34:17.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PositionOnLevel.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\PositionOnLevel.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Data\\PositionOnLevel.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\PositionOnLevel.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Data\\PositionOnLevel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T13:10:12.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "LoadProgressState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\LoadProgressState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\LoadProgressState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\LoadProgressState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Infrastracture\\States\\LoadProgressState.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAgwBYAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T13:33:59.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlayerProgress.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\PlayerProgress.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Data\\PlayerProgress.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\PlayerProgress.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Data\\PlayerProgress.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T13:08:10.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GameFactory.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\GameFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\GameFactory.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\GameFactory.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Infrastracture\\Factory\\GameFactory.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-15T16:56:27.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WorldData.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\WorldData.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Data\\WorldData.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\WorldData.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Data\\WorldData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T16:13:22.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "KillData.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\KillData.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Data\\KillData.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Data\\KillData.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Data\\KillData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T13:07:48.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RayHandler.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\RayHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\BuyerCar\\RayHandler.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\BuyerCar\\RayHandler.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\BuyerCar\\RayHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T14:46:26.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FinitMashineState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FinitMashineState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FinitMashineState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FinitMashineState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FinitMashineState.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T12:19:19.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RefillMove.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Refill\\RefillMove.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Refill\\RefillMove.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Refill\\RefillMove.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Refill\\RefillMove.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAEwDAAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-19T11:09:18.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IFinitMashineState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitMashineState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitMashineState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitMashineState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IFinitMashineState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T19:47:37.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Transition.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Transition.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Transition.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Transition.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Transition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T14:13:40.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FiniteStateBase.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FiniteStateBase.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FiniteStateBase.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FiniteStateBase.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\State\\FiniteStateBase.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-28T19:52:39.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FiniteMashineStateBuild.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Build\\FiniteMashineStateBuild.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Build\\FiniteMashineStateBuild.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Build\\FiniteMashineStateBuild.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Implementation\\Build\\FiniteMashineStateBuild.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwCwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-13T09:52:08.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "SpawnPoint.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Person\\BuyerSpawner\\SpawnPoint.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Person\\BuyerSpawner\\SpawnPoint.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Person\\BuyerSpawner\\SpawnPoint.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Person\\BuyerSpawner\\SpawnPoint.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAcwDMAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-18T16:10:49.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IChangerState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IChangerState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IChangerState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IChangerState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Interface\\IChangerState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T17:29:08.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FinalTargetState.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FinalTargetState.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FinalTargetState.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FinalTargetState.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\Game\\State\\FinalTargetState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T17:10:42.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IBuyerPresenterFactory.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\IBuyerPresenterFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\IBuyerPresenterFactory.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\IBuyerPresenterFactory.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\IBuyerPresenterFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T18:42:37.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "RefillModel.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Refill\\RefillModel.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Refill\\RefillModel.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Refill\\RefillModel.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Refill\\RefillModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T16:52:41.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AllService.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\AllService.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\Services\\AllService.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\Services\\AllService.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\Services\\AllService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T14:28:31.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "BuyerViewFactory.cs",
+              "DocumentMoniker": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerViewFactory.cs",
+              "RelativeDocumentMoniker": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerViewFactory.cs",
+              "ToolTip": "D:\\Unity Ucheba, Game 3d\\Refill\\Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerViewFactory.cs",
+              "RelativeToolTip": "Assets\\RefillProject\\CodeBase\\StateMashine\\FinitStateMashine\\Factory\\BuyerViewFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T19:05:59.62Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

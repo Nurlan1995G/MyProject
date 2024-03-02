@@ -32,15 +32,11 @@ namespace Assets.RefillProject.CodeBase.Refill
                 movementVector.Normalize();
 
                 transform.forward = movementVector;
-
-                _refillAnimation.Move(_movementSpeed);
             }
 
             movementVector += Physics.gravity;
 
             _characterController.Move(_movementSpeed * movementVector * Time.deltaTime);
-
-            _refillAnimation.StopMove();
         }
 
         public void UpdateProgress(PlayerProgress progress) => 

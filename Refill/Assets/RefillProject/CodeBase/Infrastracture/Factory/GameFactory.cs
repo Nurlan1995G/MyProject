@@ -1,8 +1,10 @@
+using Assets.RefillProject.CodeBase.BuyerCar.BuyerSpawner;
 using Assets.RefillProject.CodeBase.Infrastracture.AssetManagment;
-using Assets.RefillProject.CodeBase.Person;
-using Assets.RefillProject.CodeBase.Person.BuyerSpawner;
 using Assets.RefillProject.CodeBase.Services;
 using Assets.RefillProject.CodeBase.Services.PersistentProgress;
+using Assets.RefillProject.CodeBase.StateMashine.FinitStateMashine.Factory;
+using Assets.RefillProject.CodeBase.StateMashine.Game;
+using Assets.RefillProject.CodeBase.StateMashine.Game.Controller;
 using Assets.RefillProject.CodeBase.StaticData;
 using System.Collections.Generic;
 using UnityEngine;
@@ -29,16 +31,21 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
         public GameObject CreateRefill(Vector3 at) => 
             InstanriateRegistered(AssetAddress.RefillPath, at);
 
-        public GameObject CreateBuyer(BuyerTypeId buyerTypeId, Transform parent)
+        public BuyerView CreateBuyer(BuyerTypeId buyerTypeId, Transform parent)
         {
             BuyerStaticData buyerData = _staticData.ForBuyer(buyerTypeId);
 
-            GameObject buyer = Object.Instantiate(buyerData.PrefabReference, parent.position
+            BuyerView buyerView = Object.Instantiate(buyerData.PrefabBuyerView, parent.position
                 ,Quaternion.identity, parent);
 
-            buyer.GetComponent<NavMeshAgent>().speed = buyerData.MoveSpeed;
+            BuyerPresenter presenter = AllService.Container.Single<IBuyerPresenterFactory>()
+                .Create(buyerView, new BuyerModel()); 
 
-            return buyer;
+            buyerView.Construct(presenter);
+
+            buyerView.GetComponent<NavMeshAgent>().speed = buyerData.MoveSpeed;
+
+            return buyerView;
         }
 
         public GameObject CreatePetrol(Vector3 at) => 
@@ -51,8 +58,7 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.Factory
         {
             SpawnPoint spawner = InstanriateRegistered(AssetAddress.Spawner, at).GetComponent<SpawnPoint>();
 
-            spawner.Construct(this);
-            spawner.BuyerTypeId = buyerTypeId;
+            spawner.Construct(this, buyerTypeId);
         }
 
         public void Cleanup()

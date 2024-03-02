@@ -5,8 +5,8 @@ namespace Assets.RefillProject.CodeBase.Data
     [Serializable]
     public class PositionOnLevel
     {
-        public string Level;
-        public Vector3Data Position;
+        public string Level { get; private set; }
+        public Vector3Data Position { get; private set; }
 
         public PositionOnLevel(string initialLevel) => 
             Level = initialLevel;

@@ -10,6 +10,5 @@ namespace Assets.RefillProject.CodeBase.StaticData
         public List<BuyerSpawnerData> BuyerSpawners;
         public Vector3 InitialRefillPosition;
         public Vector3 InitialPetrolPosition;
-        //public List<GameObject> InitialPetrolPositions;
     }
 }

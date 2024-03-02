@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BuyerTypeId: 3
   MoveSpeed: 5
-  PrefabReference: {fileID: 6183048251904429594, guid: 7e0e5ff30e011004b968051afe2023e6, type: 3}
+  PrefabBuyerView: {fileID: 3363213929978225360, guid: 7e0e5ff30e011004b968051afe2023e6, type: 3}

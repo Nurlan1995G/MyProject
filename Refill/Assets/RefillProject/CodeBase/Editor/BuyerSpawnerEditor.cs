@@ -1,4 +1,4 @@
-﻿using Assets.RefillProject.CodeBase.Person.BuyerSpawner;
+﻿using Assets.RefillProject.CodeBase.BuyerCar.BuyerSpawner;
 using UnityEditor;
 using UnityEngine;
 

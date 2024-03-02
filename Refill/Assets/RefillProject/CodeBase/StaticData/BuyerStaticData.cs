@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.RefillProject.CodeBase.StateMashine.Game;
+using UnityEngine;
 
 namespace Assets.RefillProject.CodeBase.StaticData
 {
@@ -6,9 +7,7 @@ namespace Assets.RefillProject.CodeBase.StaticData
     public class BuyerStaticData : ScriptableObject
     {
         public BuyerTypeId BuyerTypeId;
-
-        public float MoveSpeed;
-
-        public GameObject PrefabReference;
+        public float MoveSpeed; //это относится к модельке
+        public BuyerView PrefabBuyerView;
     }
 }

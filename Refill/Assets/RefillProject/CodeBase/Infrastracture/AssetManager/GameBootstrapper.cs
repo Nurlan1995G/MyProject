@@ -6,7 +6,7 @@ namespace Assets.RefillProject.CodeBase.Infrastracture.AssetManager
 {
     public class GameBootstrapper : MonoBehaviour, ICoroutineRunner
     {
-        public LoadingCurtain CurtainPrefab;
+        [SerializeField] private LoadingCurtain CurtainPrefab;
         private Game _game;
 
         private void Awake()

@@ -58,76 +58,103 @@
     <Analyzer Include="C:\Unity\2020.3.33f1\2022.3.3f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\FsmState.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\FsmBuyer.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\FsmAgentMoveState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\SaveTrigger.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Logic\RandomService.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\IAgentMoving.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\State\FinalTargetState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\Factory\GameFactory.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\BuyerCar\RayHandler.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\Controller\BuyerPresenter.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\Generic\IContext.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\CameraLogic\CameraFollow.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Person\RayHandler.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManager\ICoroutineRunner.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\BuyerView.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\BootstrapState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\GameLoopState.cs" />
     <Compile Include="Assets\Petrol.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\SaveLoad\ISaveLoadService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\Input\Jostick\InputService.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Person\PointRay.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\IContext.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\TransitionBuyer.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\BuyerModel.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\AnimatorStateReporter.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\State\FinalBuyerState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\FsmFinalBuyerState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\UniqueId.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\PersistentProgress\PersistentProgressService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManagment\AssetProvider.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\BuyerCar\BuyerSpawner\SpawnMarker.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\LoadLevelState.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Person\BuyerSpawner\SpawnMarker.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\Input\Jostick\StandoloneInputService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\FsmStateMashine.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManagment\IAssetProvider.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\AnimatorState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\LevelTransferTrigger.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\IStaticDataService.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\ITransition.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Factory\BuyerViewFactory.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\PersistentProgress\IPersistentProgressService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\BuyerSpawnerData.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Refill\Refill.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManager\GameRunner.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\IFinitMashineState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Implementation\Factory\FinitMashineStateFactory.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\KillData.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\StaticDataService.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\Transition.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Implementation\Generic\Transition.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\PlayerProgress.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Refill\RefillMove.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\Input\Jostick\IInputService.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\FsmAgentIdleState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\AllService.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\IInteractable.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Refill\RefillAnimation.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\IGameStateMashine.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\SceneLoader.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\IAnimationStateReader.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Implementation\State\FiniteStateBase.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\IRandomService.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\SaveLoad\SaveLoadService.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Person\BuyerModel.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Implementation\State\FinitMashineState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\State\MoveState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\IFsmState.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Person\EndlessRotation.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\IChangerState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Implementation\Build\FiniteMashineStateBuild.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\StopToStation.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\BuyerCar\BuyerSpawner\SpawnPoint.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\GasStation.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Person\BuyerSpawner\SpawnPoint.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManager\GameBootstrapper.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\Input\Jostick\MobileInputService.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Implementation\State\FinitStateBase.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\DataExtension.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Factory\IBuyerPresenterFactory.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\Data\FsmAgentIdleState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Logic\LoadingCurtain.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManager\Game.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Factory\BuyerPresenterFactory.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\GameStateMashine.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\IState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\PositionOnLevel.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\PersistentProgress\ISavedProgress.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\Services\SaveLoad\SaveLoadService.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\State\FillingState.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\AssetManagment\AssetAddress.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\LevelStaticData.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\BuyerTypeId.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Services\IService.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\StaticData\BuyerStaticData.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\FinalTarget.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\State\IdleState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\Refill\RefillModel.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\BuyerCar\EndlessRotation.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\Vector3Data.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\Trigger.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\Services\SaveLoad\ISaveLoadService.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\Bank.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\IUpdatable.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Data\WorldData.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\Factory\IGameFactory.cs" />
     <Compile Include="Assets\RefillProject\CodeBase\Infrastracture\States\LoadProgressState.cs" />
-    <Compile Include="Assets\RefillProject\CodeBase\Person\AgentMove.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Interface\IFinitState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\Game\AgentMoving.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\NewStateMashine\FsmFillingState.cs" />
+    <Compile Include="Assets\RefillProject\CodeBase\StateMashine\FinitStateMashine\Implementation\Transition.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -784,6 +811,9 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
@@ -808,14 +838,14 @@
     <Reference Include="Unity.VisualScripting.Core">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
@@ -864,6 +894,9 @@
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>

@@ -1,5 +1,5 @@
-﻿using Assets.RefillProject.CodeBase.Logic;
-using Assets.RefillProject.CodeBase.Person.BuyerSpawner;
+﻿using Assets.RefillProject.CodeBase.BuyerCar.BuyerSpawner;
+using Assets.RefillProject.CodeBase.Logic;
 using Assets.RefillProject.CodeBase.StaticData;
 using System.Linq;
 using UnityEditor;

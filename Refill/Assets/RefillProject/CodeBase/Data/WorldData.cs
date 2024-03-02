@@ -6,7 +6,6 @@ namespace Assets.RefillProject.CodeBase.Data
     public class WorldData
     {
         public PositionOnLevel PositionOnLevel;
-        private string _initialLevel;
 
         public WorldData(string initialLevel)
         {

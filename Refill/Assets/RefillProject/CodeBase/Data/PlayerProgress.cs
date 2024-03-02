@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Assets.RefillProject.CodeBase.Data
+﻿namespace Assets.RefillProject.CodeBase.Data
 {
     public class PlayerProgress
     {
